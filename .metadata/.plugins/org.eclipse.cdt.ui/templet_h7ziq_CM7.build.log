@@ -1,0 +1,10 @@
+12:01:26 **** Incremental Build of configuration Debug for project templet_h7ziq_CM7 ****
+make -j4 all 
+arm-none-eabi-size   templet_h7ziq_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26844	     44	   1716	  28604	   6fbc	templet_h7ziq_CM7.elf
+Finished building: default.size.stdout
+ 
+
+12:01:26 Build Finished. 0 errors, 0 warnings. (took 198ms)
+

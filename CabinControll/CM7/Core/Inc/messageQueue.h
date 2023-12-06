@@ -1,0 +1,127 @@
+/*
+ * messageQueue.h
+ *
+ *  Created on: Oct 19, 2023
+ *      Author: Bhargav-4836
+ */
+
+#ifndef INC_MESSAGEQUEUE_H_
+#define INC_MESSAGEQUEUE_H_
+
+
+
+
+
+#endif /* INC_MESSAGEQUEUE_H_ */
+
+
+#include "stdint.h"
+#include "stdbool.h"
+void updateQueue(uint8_t msg);
+void sendDataToAndroid();
+
+//comment to enable single byte, else it will work in 4byte
+#define ENABLE_PROTO true
+
+typedef enum{
+    CALL_BOOKING=0X00,
+    CALL_CLEAR,
+    CHILDLOCK_STATUS,
+    BATTERY_PERCENTAGE,
+    CONTACT_CHARGER,
+    LOW_POWER_MODE,
+    UPDATE_STATUS,
+    CABIN_FLOOR,
+    EVO_STATUS,
+    MOTOR_COUNT,
+    DOOR_CLOSE_STATUS,
+    MECH_LOCK_INSIDE,
+    LANDING_LEVER_STATUS,
+    SAFETY_FAIL,
+    DATA_REQ,
+    POWER_MODE,
+    DOOR_OPEN_STATUS,
+    MECH_LOCK_OUTSIDE,
+    MECH_LOCK_SEMI
+}MESSAGE_TYPE;
+
+typedef enum
+{
+    CHILD_LOCK_DISABLED,
+    CHILD_LOCK_ENABLED
+}CHILD_LOCK_STATE;
+
+typedef enum
+{
+    CONTACT_CHARGER_OFF,
+    CONTACT_CHARGER_ON,
+    CONTACT_CHARGER_ERROR,
+}CC_STATUS;
+
+typedef enum{
+    UPDATE_AVAILABLE,
+    UPDATE_DONE,
+    VERSION_MISMATCH
+}UPDATE_STATE;
+
+typedef enum{
+    EVO_OFF,
+    EV0_ON,
+}EVO_STATE;
+
+typedef enum{
+    DOOR_ZERO_CLOSE,
+    DOOR_ONE_CLOSE,
+    DOOR_TWO_CLOSE,
+    DOOR_THREE_CLOSE,
+    DOOR_ZERO_OPEN,
+    DOOR_ONE_OPEN,
+    DOOR_TWO_OPEN,
+    DOOR_THREE_OPEN,
+}
+DOOR_LOCK_STATE;
+
+typedef enum
+{
+    MECH_ZERO_INSIDE,
+    MECH_ONE_INSDIE,
+    MECH_TWO_INSIDE,
+    MECH_THREE_INSIDE,
+    MECH_ZERO_OUTSIDE,
+    MECH_ONE_OUTSIDE,
+    MECH_TWO_OUTSIDE,
+    MECH_THREE_OUTSIDE,
+    MECH_ZERO_SEMI,
+    MECH_ONE_SEMI,
+    MECH_TWO_SEMI,
+    MECH_THREE_SEMI,
+}MECH_LOCK_STATE;
+
+typedef enum
+{
+    DOOR_FAILURE,
+    MECH_FAILURE,
+    CAN_FAILURE,
+    ESP_COM_FAILURE,
+    LIDAR_FAILURE,
+    OVERLOAD_DEVICE_FAILURE,
+    OVERLOAD_USER_FAILURE,
+    POWER_FAILURE,
+    COM_FAILURE_ON_CALL,
+    LANDING_LEVER_FAILURE,
+    CABIN_DERAIL_FAILURE,
+    ANDROID_FAILURE
+}SAFETY_FAILURE;
+
+typedef enum
+{
+    DATA_REQUEST
+}DATA_HANDLE;
+
+typedef enum
+{
+    POWER_OFF,
+    POWER_ON
+}POWER_STATUS;
+void androidDataframe(MESSAGE_TYPE msg_type, uint8_t data);
+bool emptyQueue();

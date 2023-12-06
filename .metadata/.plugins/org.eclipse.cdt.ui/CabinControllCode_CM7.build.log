@@ -1,0 +1,21 @@
+10:11:33 **** Incremental Build of configuration Debug for project CabinControllCode_CM7 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:137:11: warning: implicit declaration of function 'printshared' [-Wimplicit-function-declaration]
+  137 |           printshared();
+      |           ^~~~~~~~~~~
+arm-none-eabi-gcc -o "CabinControllCode_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\h7_bm_cube\CabinControllCode\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CabinControllCode_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CabinControllCode_CM7.elf
+ 
+arm-none-eabi-size   CabinControllCode_CM7.elf 
+arm-none-eabi-objdump -h -S  CabinControllCode_CM7.elf  > "CabinControllCode_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+  21812	     28	   1716	  23556	   5c04	CabinControllCode_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: CabinControllCode_CM7.list
+ 
+
+10:11:35 Build Finished. 0 errors, 1 warnings. (took 1s.431ms)
+

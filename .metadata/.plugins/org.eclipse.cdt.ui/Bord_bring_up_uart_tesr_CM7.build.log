@@ -1,0 +1,7 @@
+18:47:20 **** Incremental Build of configuration Debug for project Bord_bring_up_uart_tesr_CM7 ****
+make -j4 all 
+Drivers/STM32H7xx_HAL_Driver/subdir.mk:76: *** unable to generate command line.  Stop.
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+18:47:20 Build Failed. 1 errors, 0 warnings. (took 476ms)
+

@@ -1,0 +1,10 @@
+11:04:03 **** Build of configuration Debug for project nucleo_stm32h745_q_aync_comm_CM7 ****
+make -j4 all 
+arm-none-eabi-size   nucleo_stm32h745_q_aync_comm_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19896	     32	   1712	  21640	   5488	nucleo_stm32h745_q_aync_comm_CM7.elf
+Finished building: default.size.stdout
+ 
+
+11:04:03 Build Finished. 0 errors, 0 warnings. (took 202ms)
+

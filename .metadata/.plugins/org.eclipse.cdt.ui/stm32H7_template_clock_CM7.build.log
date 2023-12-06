@@ -1,0 +1,7 @@
+18:56:51 **** Incremental Build of configuration Debug for project stm32H7_template_clock_CM7 ****
+make -j4 all 
+Drivers/STM32H7xx_HAL_Driver/subdir.mk:70: *** unable to generate command line.  Stop.
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+18:56:52 Build Failed. 1 errors, 0 warnings. (took 487ms)
+

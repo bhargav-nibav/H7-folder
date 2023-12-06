@@ -1,0 +1,10 @@
+12:29:00 **** Incremental Build of configuration Debug for project uart1_CM4 ****
+make -j4 all 
+arm-none-eabi-size   uart1_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3128	     24	   1568	   4720	   1270	uart1_CM4.elf
+Finished building: default.size.stdout
+ 
+
+12:29:00 Build Finished. 0 errors, 0 warnings. (took 205ms)
+

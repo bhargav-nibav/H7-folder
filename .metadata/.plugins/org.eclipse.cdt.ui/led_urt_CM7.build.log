@@ -1,0 +1,10 @@
+14:38:03 **** Incremental Build of configuration Debug for project led_urt_CM7 ****
+make -j4 all 
+arm-none-eabi-size   led_urt_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36080	    104	   2496	  38680	   9718	led_urt_CM7.elf
+Finished building: default.size.stdout
+ 
+
+14:38:03 Build Finished. 0 errors, 0 warnings. (took 266ms)
+

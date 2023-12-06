@@ -1,0 +1,5 @@
+"./Src/main.o"
+"./Src/ringbuff.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32h745zitx.o"

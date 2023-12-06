@@ -1,0 +1,13 @@
+ToolChainManager/order/n=0
+build.all.configs.enabled=false
+build.proj.ref.configs.enabled=false
+eclipse.preferences.version=1
+includes.beginExportsPattern=IWYU\\s+(pragma\:?\\s+)?begin_exports?
+includes.endExportsPattern=IWYU\\s+(pragma\:?\\s+)?end_exports?
+includes.exportPattern=IWYU\\s+(pragma\:?\\s+)?export
+includes.keepPattern=IWYU\\s+(pragma\:?\\s+)?keep
+includes.privatePattern=IWYU\\s+(pragma\:?\\s+)?private(,\\s+include\\s+(?<header>\\S+))?
+macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<macros/>\r\n
+org.eclipse.cdt.core.showSourceFilesInBinaries=true
+org.eclipse.cdt.core.showSourceNotFoundEditor=all_time
+org.eclipse.cdt.core.showSourceRootsAtTopLevelOfProject=true

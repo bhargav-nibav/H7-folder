@@ -1,0 +1,10 @@
+17:17:26 **** Incremental Build of configuration Debug for project Core_to_Core_shareMemo_CM4 ****
+make -j4 all 
+arm-none-eabi-size   Core_to_Core_shareMemo_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2308	     16	   1568	   3892	    f34	Core_to_Core_shareMemo_CM4.elf
+Finished building: default.size.stdout
+ 
+
+17:17:26 Build Finished. 0 errors, 0 warnings. (took 167ms)
+

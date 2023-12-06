@@ -1,0 +1,31 @@
+10:52:09 **** Build of configuration Debug for project S4_UART_test1_CM7 ****
+make -j4 all 
+arm-none-eabi-gcc "D:/h7_bm_cube/1_Test/S4_UART_test1/S4_UART_test1/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM7/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.d" -MT"Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o"
+arm-none-eabi-gcc "D:/h7_bm_cube/1_Test/S4_UART_test1/S4_UART_test1/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM7/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.d" -MT"Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.o"
+arm-none-eabi-gcc "D:/h7_bm_cube/1_Test/S4_UART_test1/S4_UART_test1/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM7/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma.d" -MT"Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma.o"
+arm-none-eabi-gcc "D:/h7_bm_cube/1_Test/S4_UART_test1/S4_UART_test1/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../../../CM7/Core/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma_ex.o"
+D:/h7_bm_cube/1_Test/S4_UART_test1/S4_UART_test1/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c:51:10: fatal error: stm32h7xx_hal.h: No such file or directory
+   51 | #include "stm32h7xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+D:/h7_bm_cube/1_Test/S4_UART_test1/S4_UART_test1/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c:82:10: fatal error: stm32h7xx_hal.h: No such file or directory
+   82 | #include "stm32h7xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+D:/h7_bm_cube/1_Test/S4_UART_test1/S4_UART_test1/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:95:10: fatal error: stm32h7xx_hal.h: No such file or directory
+   95 | #include "stm32h7xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+D:/h7_bm_cube/1_Test/S4_UART_test1/S4_UART_test1/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c:36:10: fatal error: stm32h7xx_hal.h: No such file or directory
+   36 | #include "stm32h7xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32H7xx_HAL_Driver/subdir.mk:80: Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/STM32H7xx_HAL_Driver/subdir.mk:82: Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_dma_ex.o] Error 1
+make: *** [Drivers/STM32H7xx_HAL_Driver/subdir.mk:76: Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o] Error 1
+make: *** [Drivers/STM32H7xx_HAL_Driver/subdir.mk:78: Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+10:52:10 Build Failed. 9 errors, 0 warnings. (took 695ms)
+

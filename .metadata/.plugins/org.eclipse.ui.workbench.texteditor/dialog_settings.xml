@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="Error_Handler"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="Error_Handler"/>
+			<item value="cabinCurFloor"/>
+			<item value="Serial.println"/>
+			<item value="buff"/>
+			<item value="millis"/>
+			<item value="initDisplayPins"/>
+			<item value="timerMulti"/>
+			<item value="buf"/>
+			<item value="HAL_GetTick"/>
+			<item value="adc1_chars"/>
+			<item value="checkTimer"/>
+			<item value="UNUSED"/>
+			<item value="SET_BIT"/>
+			<item value="RCC_OscInitTypeDef"/>
+			<item value="RCC_BASE"/>
+		</list>
+		<list key="replacehistory">
+			<item value="HAL_GetTick"/>
+			<item value="HAL_Gettick"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1230"/>
+		<item key="DIALOG_Y_ORIGIN" value="469"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

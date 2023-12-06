@@ -1,0 +1,5 @@
+../Core/Src/childLockControl.c:29:6:checkChildLock	16	static
+../Core/Src/childLockControl.c:61:6:disableChildLock	8	static
+../Core/Src/childLockControl.c:68:6:enableChildLock	8	static
+../Core/Src/childLockControl.c:75:6:initCL	16	static
+../Core/Src/childLockControl.c:92:6:sendCLStatus	16	static

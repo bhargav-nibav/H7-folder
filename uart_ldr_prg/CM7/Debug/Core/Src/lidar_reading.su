@@ -1,0 +1,4 @@
+../Core/Src/lidar_reading.c:20:6:processLidarValue	16	static
+../Core/Src/lidar_reading.c:59:6:getTFminiData	32	static
+../Core/Src/lidar_reading.c:70:6:setUpLiudarDMA	8	static
+../Core/Src/lidar_reading.c:79:6:HAL_UART_RxCpltCallback	16	static

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cHelpSettings>
+        
+    <project name="nucleo_stm32h745_q_aync_comm_CM4">
+                
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+            
+    </project>
+    
+    <project name="stm32H7_template_clock_CM7">
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+    </project>
+</cHelpSettings>

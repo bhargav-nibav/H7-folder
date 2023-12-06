@@ -1,0 +1,5 @@
+../Core/Src/childLockControl.c:29:6:checkChildLock	4
+../Core/Src/childLockControl.c:61:6:disableChildLock	1
+../Core/Src/childLockControl.c:68:6:enableChildLock	1
+../Core/Src/childLockControl.c:75:6:initCL	2
+../Core/Src/childLockControl.c:92:6:sendCLStatus	2

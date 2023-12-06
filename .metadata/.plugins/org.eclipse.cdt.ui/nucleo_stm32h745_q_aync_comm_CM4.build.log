@@ -1,0 +1,10 @@
+15:24:13 **** Incremental Build of configuration Debug for project nucleo_stm32h745_q_aync_comm_CM4 ****
+make -j4 all 
+arm-none-eabi-size   nucleo_stm32h745_q_aync_comm_CM4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5248	     32	   1568	   6848	   1ac0	nucleo_stm32h745_q_aync_comm_CM4.elf
+Finished building: default.size.stdout
+ 
+
+15:24:13 Build Finished. 0 errors, 0 warnings. (took 198ms)
+

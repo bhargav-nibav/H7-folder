@@ -1,0 +1,51 @@
+2023-10-12 12:12:05,770 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-12 12:12:06,159 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-12 12:12:06,183 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-12 12:12:06,191 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-10-12 12:12:07,753 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-12 12:12:07,754 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Bhargav-4836/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-12 12:12:12,838 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-12 12:12:12,973 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-12 12:12:12,973 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Bhargav-4836/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-12 12:12:28,362 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-12 12:12:28,559 [INFO] ApiDb:448 - Save user favorites file C:\Users\Bhargav-4836/.stm32cubeide/favorites.mcus.txt: 2 item(s)
+2023-10-12 12:12:28,560 [INFO] ApiDb:452 - User favorites MCUs=[STM32F103C8T6, STM32H745ZIT6]
+2023-10-12 12:12:28,562 [INFO] ApiDb:448 - Save user favorites file C:\Users\Bhargav-4836/.stm32cubeide/favorites.boards.txt: 3 item(s)
+2023-10-12 12:12:28,562 [INFO] ApiDb:452 - User favorites Boards=[NUCLEO-F722ZE, NUCLEO-H745ZI-Q, NUCLEO-WL55JC1]
+2023-10-12 12:12:46,179 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-12 12:12:46,276 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-12 12:12:46,277 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-12 12:12:46,278 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-10-12 12:12:46,862 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-12 12:12:46,862 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Bhargav-4836/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-12 12:12:49,794 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-12 12:12:49,838 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-12 12:12:49,838 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Bhargav-4836/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-12 12:13:35,486 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-12 12:13:35,489 [INFO] ApiDb:448 - Save user favorites file C:\Users\Bhargav-4836/.stm32cubeide/favorites.mcus.txt: 2 item(s)
+2023-10-12 12:13:35,489 [INFO] ApiDb:452 - User favorites MCUs=[STM32F103C8T6, STM32H745ZIT6]
+2023-10-12 12:13:35,491 [INFO] ApiDb:448 - Save user favorites file C:\Users\Bhargav-4836/.stm32cubeide/favorites.boards.txt: 3 item(s)
+2023-10-12 12:13:35,491 [INFO] ApiDb:452 - User favorites Boards=[NUCLEO-F722ZE, NUCLEO-H745ZI-Q, NUCLEO-WL55JC1]
+2023-10-12 13:08:35,872 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-12 13:08:36,030 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-12 13:08:36,037 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-12 13:08:36,038 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-10-12 13:08:36,587 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-12 13:08:36,588 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Bhargav-4836/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-12 13:09:13,104 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-12 13:09:13,193 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-12 13:09:13,193 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Bhargav-4836/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-12 13:09:37,586 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-12 13:09:38,319 [INFO] ApiDb:448 - Save user favorites file C:\Users\Bhargav-4836/.stm32cubeide/favorites.mcus.txt: 2 item(s)
+2023-10-12 13:09:38,320 [INFO] ApiDb:452 - User favorites MCUs=[STM32F103C8T6, STM32H745ZIT6]
+2023-10-12 13:09:38,322 [INFO] ApiDb:448 - Save user favorites file C:\Users\Bhargav-4836/.stm32cubeide/favorites.boards.txt: 3 item(s)
+2023-10-12 13:09:38,322 [INFO] ApiDb:452 - User favorites Boards=[NUCLEO-F722ZE, NUCLEO-H745ZI-Q, NUCLEO-WL55JC1]
+2023-10-12 13:13:56,858 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-12 13:13:56,970 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-12 13:13:56,972 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-12 13:13:56,972 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-10-12 13:13:57,514 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-12 13:13:57,514 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Bhargav-4836/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-12 13:13:59,706 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-12 13:14:06,533 [INFO] ApiDb:448 - Save user favorites file C:\Users\Bhargav-4836/.stm32cubeide/favorites.mcus.txt: 2 item(s)
+2023-10-12 13:14:06,534 [INFO] ApiDb:452 - User favorites MCUs=[STM32F103C8T6, STM32H745ZIT6]

@@ -1,0 +1,1261 @@
+2023-10-18 10:17:33,660 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class sun.awt.windows.WEmbeddedFrame cannot be cast to class javax.swing.JFrame (sun.awt.windows.WEmbeddedFrame and javax.swing.JFrame are in module java.desktop of loader 'bootstrap')
+2023-10-18 10:17:33,671 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.clock.ClockConfigurationView.activatePlugin(ClockConfigurationView.java:425)
+2023-10-18 10:17:33,672 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.maingui.MainPanel$1.stateChanged(MainPanel.java:367)
+2023-10-18 10:17:33,673 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(JTabbedPane.java:444)
+2023-10-18 10:17:33,674 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(JTabbedPane.java:295)
+2023-10-18 10:17:33,675 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(DefaultSingleSelectionModel.java:148)
+2023-10-18 10:17:33,677 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(DefaultSingleSelectionModel.java:79)
+2023-10-18 10:17:33,678 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(JTabbedPane.java:648)
+2023-10-18 10:17:33,679 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(JTabbedPane.java:623)
+2023-10-18 10:17:33,681 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(BasicTabbedPaneUI.java:4101)
+2023-10-18 10:17:33,682 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+2023-10-18 10:17:33,683 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2023-10-18 10:17:33,685 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2023-10-18 10:17:33,685 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2023-10-18 10:17:33,686 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2023-10-18 10:17:33,687 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2023-10-18 10:17:33,688 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2023-10-18 10:17:33,689 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2023-10-18 10:17:33,690 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2023-10-18 10:17:33,691 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2023-10-18 10:17:33,692 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2023-10-18 10:17:33,693 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2023-10-18 10:17:33,693 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+2023-10-18 10:17:33,694 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+2023-10-18 10:17:33,695 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+2023-10-18 10:17:33,696 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2023-10-18 10:17:33,698 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2023-10-18 10:17:33,699 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2023-10-18 10:17:33,700 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+2023-10-18 10:17:33,701 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+2023-10-18 10:17:33,702 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2023-10-18 10:17:33,703 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2023-10-18 10:17:33,704 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+2023-10-18 10:17:33,705 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-10-18 10:17:33,706 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-10-18 10:17:33,707 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-10-18 10:17:33,707 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-10-18 10:17:33,708 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-10-18 10:17:33,709 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-10-18 10:17:50,886 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 958142080 Bytes (1073741824)
+2023-10-18 10:17:52,058 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 881139984 Bytes (1073741824)
+2023-10-18 10:17:53,379 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 848342512 Bytes (1073741824)
+2023-10-18 10:17:53,700 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-18 10:17:53,700 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-18 10:17:53,700 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-18 10:17:53,700 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-18 10:17:53,700 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC2
+2023-10-18 10:17:53,701 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-18 10:17:53,701 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS_M4
+2023-10-18 10:17:53,701 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC1
+2023-10-18 10:17:53,701 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-18 10:17:53,767 [INFO] CodeGenerator:1502 - *******************Project context M7 selected
+2023-10-18 10:17:54,076 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 10:17:54,206 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 10:17:54,252 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\gpio.c_save
+2023-10-18 10:17:54,323 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\gpio.c
+2023-10-18 10:17:54,330 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\gpio.h_save
+2023-10-18 10:17:54,381 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\gpio.h
+2023-10-18 10:17:54,486 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC1 ip!!
+2023-10-18 10:17:54,576 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c_save
+2023-10-18 10:17:54,676 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c
+2023-10-18 10:17:54,685 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h_save
+2023-10-18 10:17:54,742 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h
+2023-10-18 10:17:54,756 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp_save
+2023-10-18 10:17:54,836 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp
+2023-10-18 10:17:54,850 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c_save
+2023-10-18 10:17:54,927 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c
+2023-10-18 10:17:54,931 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h_save
+2023-10-18 10:17:54,984 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h
+2023-10-18 10:17:55,009 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c_save
+2023-10-18 10:17:55,155 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c
+2023-10-18 10:17:55,164 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 10:17:55,220 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h
+2023-10-18 10:17:55,274 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 10:17:55,358 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 10:17:55,367 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp_save
+2023-10-18 10:17:55,416 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp
+2023-10-18 10:17:55,440 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 10:17:55,518 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 10:17:55,580 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h_save
+2023-10-18 10:17:55,673 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h
+2023-10-18 10:17:55,692 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c_save
+2023-10-18 10:17:55,786 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c
+2023-10-18 10:17:55,870 [INFO] CodeGenerator:1502 - *******************Project context M4 selected
+2023-10-18 10:17:56,032 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 10:17:56,133 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 10:17:56,177 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c_save
+2023-10-18 10:17:56,260 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c
+2023-10-18 10:17:56,263 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h_save
+2023-10-18 10:17:56,312 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h
+2023-10-18 10:17:56,350 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC2 ip!!
+2023-10-18 10:17:56,439 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c_save
+2023-10-18 10:17:56,542 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c
+2023-10-18 10:17:56,545 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h_save
+2023-10-18 10:17:56,587 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h
+2023-10-18 10:17:56,590 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp_save
+2023-10-18 10:17:56,652 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp
+2023-10-18 10:17:56,666 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c_save
+2023-10-18 10:17:56,768 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c
+2023-10-18 10:17:56,770 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h_save
+2023-10-18 10:17:56,810 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h
+2023-10-18 10:17:56,837 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c_save
+2023-10-18 10:17:56,896 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c
+2023-10-18 10:17:56,900 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 10:17:56,946 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h
+2023-10-18 10:17:56,991 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 10:17:57,058 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 10:17:57,061 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp_save
+2023-10-18 10:17:57,099 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp
+2023-10-18 10:17:57,114 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 10:17:57,190 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 10:17:57,218 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h_save
+2023-10-18 10:17:57,287 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h
+2023-10-18 10:17:57,297 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c_save
+2023-10-18 10:17:57,369 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c
+2023-10-18 10:17:58,090 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 171mS.
+2023-10-18 10:17:58,098 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-18 10:17:58,506 [INFO] ConfigFileManager:1457 - The Die is : DIE450
+2023-10-18 10:18:06,014 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 7915mS.
+2023-10-18 10:18:06,014 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 10:18:06,015 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 10:37:19,889 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 931701184 Bytes (1073741824)
+2023-10-18 10:37:21,164 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 714009984 Bytes (1073741824)
+2023-10-18 10:37:22,337 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 770018720 Bytes (1073741824)
+2023-10-18 10:37:22,527 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-18 10:37:22,527 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-18 10:37:22,527 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-18 10:37:22,527 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-18 10:37:22,527 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC2
+2023-10-18 10:37:22,528 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-18 10:37:22,528 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS_M4
+2023-10-18 10:37:22,528 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC1
+2023-10-18 10:37:22,528 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-18 10:37:22,575 [INFO] CodeGenerator:1502 - *******************Project context M7 selected
+2023-10-18 10:37:22,651 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 10:37:22,784 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 10:37:22,860 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC1 ip!!
+2023-10-18 10:37:22,918 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c_save
+2023-10-18 10:37:23,064 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c
+2023-10-18 10:37:23,074 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h_save
+2023-10-18 10:37:23,147 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h
+2023-10-18 10:37:23,152 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp_save
+2023-10-18 10:37:23,231 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp
+2023-10-18 10:37:23,246 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c_save
+2023-10-18 10:37:23,354 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c
+2023-10-18 10:37:23,358 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h_save
+2023-10-18 10:37:23,407 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h
+2023-10-18 10:37:23,445 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c_save
+2023-10-18 10:37:23,621 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c
+2023-10-18 10:37:23,625 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 10:37:23,703 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h
+2023-10-18 10:37:23,729 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 10:37:23,847 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 10:37:23,850 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp_save
+2023-10-18 10:37:23,920 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp
+2023-10-18 10:37:23,937 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 10:37:24,030 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 10:37:24,087 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h_save
+2023-10-18 10:37:24,196 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h
+2023-10-18 10:37:24,208 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c_save
+2023-10-18 10:37:24,312 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c
+2023-10-18 10:37:24,386 [INFO] CodeGenerator:1502 - *******************Project context M4 selected
+2023-10-18 10:37:24,508 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 10:37:24,589 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 10:37:24,612 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c_save
+2023-10-18 10:37:24,689 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c
+2023-10-18 10:37:24,693 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h_save
+2023-10-18 10:37:24,754 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h
+2023-10-18 10:37:24,813 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC2 ip!!
+2023-10-18 10:37:24,875 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c_save
+2023-10-18 10:37:24,969 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c
+2023-10-18 10:37:24,972 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h_save
+2023-10-18 10:37:25,020 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h
+2023-10-18 10:37:25,025 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp_save
+2023-10-18 10:37:25,103 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp
+2023-10-18 10:37:25,119 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c_save
+2023-10-18 10:37:25,219 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c
+2023-10-18 10:37:25,222 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h_save
+2023-10-18 10:37:25,284 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h
+2023-10-18 10:37:25,317 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c_save
+2023-10-18 10:37:25,405 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c
+2023-10-18 10:37:25,407 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 10:37:25,450 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h
+2023-10-18 10:37:25,525 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 10:37:25,616 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 10:37:25,618 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp_save
+2023-10-18 10:37:25,679 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp
+2023-10-18 10:37:25,702 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 10:37:25,814 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 10:37:25,851 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h_save
+2023-10-18 10:37:25,928 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h
+2023-10-18 10:37:25,937 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c_save
+2023-10-18 10:37:26,014 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c
+2023-10-18 10:37:26,632 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 197mS.
+2023-10-18 10:37:26,639 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-18 10:37:26,839 [INFO] ConfigFileManager:1457 - The Die is : DIE450
+2023-10-18 10:37:34,020 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 7382mS.
+2023-10-18 10:37:34,020 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 10:37:34,021 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 11:09:51,238 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 923097824 Bytes (1073741824)
+2023-10-18 11:09:52,237 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 957630096 Bytes (1073741824)
+2023-10-18 11:09:54,404 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 781987440 Bytes (1073741824)
+2023-10-18 11:09:54,665 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-18 11:09:54,665 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-18 11:09:54,665 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-18 11:09:54,665 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-18 11:09:54,665 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC2
+2023-10-18 11:09:54,666 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-18 11:09:54,666 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS_M4
+2023-10-18 11:09:54,666 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC1
+2023-10-18 11:09:54,667 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-18 11:09:54,800 [INFO] CodeGenerator:1502 - *******************Project context M7 selected
+2023-10-18 11:09:54,977 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 11:09:55,449 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 11:09:55,486 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC1 ip!!
+2023-10-18 11:09:55,526 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c_save
+2023-10-18 11:09:55,682 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c
+2023-10-18 11:09:55,685 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h_save
+2023-10-18 11:09:55,737 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h
+2023-10-18 11:09:55,742 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp_save
+2023-10-18 11:09:55,813 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp
+2023-10-18 11:09:55,830 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c_save
+2023-10-18 11:09:55,939 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c
+2023-10-18 11:09:55,943 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h_save
+2023-10-18 11:09:56,016 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h
+2023-10-18 11:09:56,042 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c_save
+2023-10-18 11:09:56,258 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c
+2023-10-18 11:09:56,261 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 11:09:56,324 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h
+2023-10-18 11:09:56,356 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 11:09:56,499 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 11:09:56,503 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp_save
+2023-10-18 11:09:56,556 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp
+2023-10-18 11:09:56,570 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 11:09:56,707 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 11:09:56,751 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h_save
+2023-10-18 11:09:56,838 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h
+2023-10-18 11:09:56,850 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c_save
+2023-10-18 11:09:56,923 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c
+2023-10-18 11:09:57,029 [INFO] CodeGenerator:1502 - *******************Project context M4 selected
+2023-10-18 11:09:57,122 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 11:09:57,192 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 11:09:57,230 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c_save
+2023-10-18 11:09:57,387 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c
+2023-10-18 11:09:57,399 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h_save
+2023-10-18 11:09:57,440 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h
+2023-10-18 11:09:57,479 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC2 ip!!
+2023-10-18 11:09:57,557 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c_save
+2023-10-18 11:09:57,641 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c
+2023-10-18 11:09:57,645 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h_save
+2023-10-18 11:09:57,699 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h
+2023-10-18 11:09:57,703 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp_save
+2023-10-18 11:09:57,773 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp
+2023-10-18 11:09:57,789 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c_save
+2023-10-18 11:09:57,874 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c
+2023-10-18 11:09:57,877 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h_save
+2023-10-18 11:09:57,923 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h
+2023-10-18 11:09:57,943 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c_save
+2023-10-18 11:09:58,006 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c
+2023-10-18 11:09:58,009 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 11:09:58,056 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h
+2023-10-18 11:09:58,119 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 11:09:58,204 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 11:09:58,206 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp_save
+2023-10-18 11:09:58,257 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp
+2023-10-18 11:09:58,272 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 11:09:58,361 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 11:09:58,396 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h_save
+2023-10-18 11:09:58,471 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h
+2023-10-18 11:09:58,481 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c_save
+2023-10-18 11:09:58,547 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c
+2023-10-18 11:09:59,237 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 159mS.
+2023-10-18 11:09:59,245 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-18 11:09:59,551 [INFO] ConfigFileManager:1457 - The Die is : DIE450
+2023-10-18 11:10:06,653 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 7408mS.
+2023-10-18 11:10:06,654 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-18 11:10:06,654 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 11:10:48,792 [INFO] Gpio:273 - dependency for GPIO [ADC1, RCC, USART3]
+2023-10-18 11:11:13,430 [INFO] Gpio:273 - dependency for GPIO [ADC1, RCC, USART3]
+2023-10-18 11:11:15,368 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 880301144 Bytes (1073741824)
+2023-10-18 11:11:16,536 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 925449880 Bytes (1073741824)
+2023-10-18 11:11:17,844 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 897489256 Bytes (1073741824)
+2023-10-18 11:11:18,133 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-18 11:11:18,133 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-18 11:11:18,133 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-18 11:11:18,133 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-18 11:11:18,133 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC2
+2023-10-18 11:11:18,134 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-18 11:11:18,134 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS_M4
+2023-10-18 11:11:18,134 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC1
+2023-10-18 11:11:18,135 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-18 11:11:18,206 [INFO] CodeGenerator:1502 - *******************Project context M7 selected
+2023-10-18 11:11:18,358 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 11:11:18,819 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 11:11:18,831 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\gpio.c_save
+2023-10-18 11:11:18,948 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\gpio.c
+2023-10-18 11:11:18,950 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\gpio.h_save
+2023-10-18 11:11:19,026 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\gpio.h
+2023-10-18 11:11:19,058 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC1 ip!!
+2023-10-18 11:11:19,094 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c_save
+2023-10-18 11:11:19,218 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c
+2023-10-18 11:11:19,222 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h_save
+2023-10-18 11:11:19,306 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h
+2023-10-18 11:11:19,312 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp_save
+2023-10-18 11:11:19,389 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp
+2023-10-18 11:11:19,405 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c_save
+2023-10-18 11:11:19,478 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c
+2023-10-18 11:11:19,481 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h_save
+2023-10-18 11:11:19,548 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h
+2023-10-18 11:11:19,573 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c_save
+2023-10-18 11:11:19,712 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c
+2023-10-18 11:11:19,715 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 11:11:19,755 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h
+2023-10-18 11:11:19,798 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 11:11:19,915 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 11:11:19,918 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp_save
+2023-10-18 11:11:19,959 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp
+2023-10-18 11:11:19,973 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 11:11:20,074 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 11:11:20,119 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h_save
+2023-10-18 11:11:20,245 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h
+2023-10-18 11:11:20,257 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c_save
+2023-10-18 11:11:20,349 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c
+2023-10-18 11:11:20,447 [INFO] CodeGenerator:1502 - *******************Project context M4 selected
+2023-10-18 11:11:20,575 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 11:11:20,676 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 11:11:20,748 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c_save
+2023-10-18 11:11:20,894 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c
+2023-10-18 11:11:20,899 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h_save
+2023-10-18 11:11:20,956 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h
+2023-10-18 11:11:21,003 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC2 ip!!
+2023-10-18 11:11:21,047 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c_save
+2023-10-18 11:11:21,141 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c
+2023-10-18 11:11:21,144 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h_save
+2023-10-18 11:11:21,195 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h
+2023-10-18 11:11:21,199 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp_save
+2023-10-18 11:11:21,280 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp
+2023-10-18 11:11:21,296 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c_save
+2023-10-18 11:11:21,378 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c
+2023-10-18 11:11:21,382 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h_save
+2023-10-18 11:11:21,421 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h
+2023-10-18 11:11:21,440 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c_save
+2023-10-18 11:11:21,496 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c
+2023-10-18 11:11:21,499 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 11:11:21,540 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h
+2023-10-18 11:11:21,594 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 11:11:21,656 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 11:11:21,658 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp_save
+2023-10-18 11:11:21,695 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp
+2023-10-18 11:11:21,709 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 11:11:21,790 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 11:11:21,815 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h_save
+2023-10-18 11:11:21,878 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h
+2023-10-18 11:11:21,888 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c_save
+2023-10-18 11:11:21,950 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c
+2023-10-18 11:11:22,528 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 121mS.
+2023-10-18 11:11:22,534 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-18 11:11:23,368 [INFO] ConfigFileManager:1457 - The Die is : DIE450
+2023-10-18 11:11:29,266 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 6732mS.
+2023-10-18 11:11:29,267 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-18 11:11:29,267 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 11:26:59,276 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-18 11:26:59,277 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-18 11:26:59,362 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-10-18 11:26:59,363 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2023-10-18 11:26:59,392 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-10-18 11:26:59,392 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-10-18 11:26:59,392 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-10-18 11:26:59,408 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-10-18 11:26:59,420 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2023-10-18 11:26:59,431 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-10-18 11:26:59,435 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2023-10-18 11:26:59,439 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-10-18 11:26:59,445 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 761362784 Bytes (1073741824)
+2023-10-18 11:26:59,445 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-10-18 11:26:59,446 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2023-10-18 11:26:59,446 [INFO] OpenFileManager:308 - Change cursor
+2023-10-18 11:26:59,463 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-10-18 11:26:59,471 [INFO] Mcu:1946 - Initializing MCU STM32H745ZITx STM32H745ZITx STM32H745ZIT6
+2023-10-18 11:27:01,847 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-10-18 11:27:01,847 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-10-18 11:27:03,146 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-10-18 11:27:03,147 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-10-18 11:27:03,304 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS_M7
+2023-10-18 11:27:03,304 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS_M7
+2023-10-18 11:27:03,304 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS_M7
+2023-10-18 11:27:03,304 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS_M7
+2023-10-18 11:27:03,304 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,317 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,578 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS_M4
+2023-10-18 11:27:03,578 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS_M4
+2023-10-18 11:27:03,578 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS_M4
+2023-10-18 11:27:03,578 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS_M4
+2023-10-18 11:27:03,578 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,590 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 11:27:03,714 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-10-18 11:27:04,461 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-10-18 11:27:04,466 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-10-18 11:27:05,107 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FDCANFreq_Value) has invalid value (75000000)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (I2C4Freq_Value) has invalid value (75000000)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (LPTIM2Freq_Value) has invalid value (75000000)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (LPTIM345Freq_Value) has invalid value (75000000)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (LPUART1Freq_Value) has invalid value (75000000)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (LTDCFreq_Value) has invalid value (129000000)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SPI45Freq_Value) has invalid value (75000000)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SPI6Freq_Value) has invalid value (75000000)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USART16Freq_Value) has invalid value (75000000)
+2023-10-18 11:27:05,123 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (75000000)
+2023-10-18 11:27:05,264 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 773960112 Bytes (1073741824)
+2023-10-18 11:27:05,298 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-10-18 11:27:05,298 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-10-18 11:27:05,300 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-10-18 11:27:05,300 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2023-10-18 11:27:05,300 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-10-18 11:27:05,300 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-10-18 11:27:05,300 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-10-18 11:27:05,300 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-10-18 11:27:05,300 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.3
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.4
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.1
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.1
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-10-18 11:27:05,301 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.1
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.1
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-10-18 11:27:05,302 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-10-18 11:27:05,303 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-10-18 11:27:05,644 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-10-18 11:27:05,646 [INFO] PinOutPanel:1499 - setPackage(STM32H745ZITx,LQFP144)
+2023-10-18 11:27:06,038 [INFO] UtilMem:75 - Before build in PCC Used Memory: 947653872 Bytes (1073741824)
+2023-10-18 11:27:06,289 [INFO] UtilMem:75 - After build in PCC Used Memory: 860709600 Bytes (1073741824)
+2023-10-18 11:27:06,312 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,312 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,312 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,312 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,312 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,312 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,312 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,312 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,315 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,315 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,315 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,315 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,315 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,315 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,315 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,315 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,316 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,316 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,316 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,316 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,317 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,317 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,317 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,318 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,318 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,318 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,318 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,319 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,319 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,319 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,319 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,319 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,319 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,319 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,319 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,320 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,320 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,320 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,320 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,320 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,320 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,321 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,321 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,321 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,321 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,321 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,322 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,322 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,322 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,322 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,322 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,323 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,323 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,323 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,323 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,323 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,324 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,324 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,324 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,324 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,325 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,325 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,325 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,325 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,326 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,326 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,326 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,326 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,326 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,331 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,331 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,332 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,332 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,333 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,333 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,334 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,334 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,334 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,335 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 11:27:06,339 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-10-18 11:27:06,340 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-10-18 11:27:06,384 [INFO] CADModel:165 - CPN selected for project levelSTM32H745ZIT6
+2023-10-18 11:27:06,384 [INFO] CADModel:114 - Register for checkConnection events
+2023-10-18 11:27:06,435 [INFO] OpenFileManager:328 - Restore cursor
+2023-10-18 11:27:22,017 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 823165408 Bytes (1073741824)
+2023-10-18 11:27:23,149 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 858816992 Bytes (1073741824)
+2023-10-18 11:27:24,072 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 920221672 Bytes (1073741824)
+2023-10-18 11:27:24,376 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-18 11:27:24,376 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-18 11:27:24,376 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-18 11:27:24,376 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-18 11:27:24,376 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC2
+2023-10-18 11:27:24,376 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-18 11:27:24,376 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS_M4
+2023-10-18 11:27:24,377 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC1
+2023-10-18 11:27:24,377 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-18 11:27:24,468 [INFO] CodeGenerator:1502 - *******************Project context M7 selected
+2023-10-18 11:27:24,674 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 11:27:24,994 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 11:27:25,037 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\gpio.c_save
+2023-10-18 11:27:25,344 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\gpio.c
+2023-10-18 11:27:25,349 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\gpio.h_save
+2023-10-18 11:27:25,405 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\gpio.h
+2023-10-18 11:27:25,468 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC1 ip!!
+2023-10-18 11:27:25,563 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c_save
+2023-10-18 11:27:25,789 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\adc.c
+2023-10-18 11:27:25,794 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h_save
+2023-10-18 11:27:25,864 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\adc.h
+2023-10-18 11:27:25,871 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp_save
+2023-10-18 11:27:25,959 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\cortex.tmp
+2023-10-18 11:27:25,976 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c_save
+2023-10-18 11:27:26,065 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\usart.c
+2023-10-18 11:27:26,069 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h_save
+2023-10-18 11:27:26,122 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\usart.h
+2023-10-18 11:27:26,149 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c_save
+2023-10-18 11:27:26,283 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_it.c
+2023-10-18 11:27:26,286 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 11:27:26,326 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_it.h
+2023-10-18 11:27:26,358 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 11:27:26,425 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 11:27:26,429 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp_save
+2023-10-18 11:27:26,467 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\MXTmpFiles\system.tmp
+2023-10-18 11:27:26,481 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 11:27:26,564 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 11:27:26,615 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h_save
+2023-10-18 11:27:26,715 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Inc\main.h
+2023-10-18 11:27:26,729 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c_save
+2023-10-18 11:27:26,819 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM7\Core\Src\main.c
+2023-10-18 11:27:26,934 [INFO] CodeGenerator:1502 - *******************Project context M4 selected
+2023-10-18 11:27:27,052 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp_save
+2023-10-18 11:27:27,135 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\MXTmpFiles\license.tmp
+2023-10-18 11:27:27,158 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c_save
+2023-10-18 11:27:27,225 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\gpio.c
+2023-10-18 11:27:27,229 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h_save
+2023-10-18 11:27:27,279 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\gpio.h
+2023-10-18 11:27:27,349 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC2 ip!!
+2023-10-18 11:27:27,436 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c_save
+2023-10-18 11:27:27,580 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\adc.c
+2023-10-18 11:27:27,583 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h_save
+2023-10-18 11:27:27,638 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\adc.h
+2023-10-18 11:27:27,643 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp_save
+2023-10-18 11:27:27,704 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\cortex.tmp
+2023-10-18 11:27:27,721 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c_save
+2023-10-18 11:27:27,820 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\usart.c
+2023-10-18 11:27:27,829 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h_save
+2023-10-18 11:27:27,877 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\usart.h
+2023-10-18 11:27:27,898 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c_save
+2023-10-18 11:27:27,961 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_it.c
+2023-10-18 11:27:27,965 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 11:27:28,023 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_it.h
+2023-10-18 11:27:28,065 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 11:27:28,125 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 11:27:28,127 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp_save
+2023-10-18 11:27:28,166 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\MXTmpFiles\system.tmp
+2023-10-18 11:27:28,183 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 11:27:28,262 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 11:27:28,288 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h_save
+2023-10-18 11:27:28,367 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Inc\main.h
+2023-10-18 11:27:28,377 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c_save
+2023-10-18 11:27:28,445 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinController\CM4\Core\Src\main.c
+2023-10-18 11:27:29,172 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 166mS.
+2023-10-18 11:27:29,179 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-18 11:27:29,931 [INFO] ConfigFileManager:1457 - The Die is : DIE450
+2023-10-18 11:27:36,736 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 7557mS.
+2023-10-18 11:27:36,737 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-18 11:27:36,738 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 14:07:23,411 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-18 14:07:23,558 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-18 14:07:23,561 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-10-18 14:07:23,561 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-10-18 14:07:24,247 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-10-18 14:07:24,248 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Bhargav-4836/STM32Cube/Repository/\en.prom-stm32h5-mcu-finder.jpg
+2023-10-18 14:08:13,409 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-18 14:08:13,409 [INFO] MainUpdater:2868 - connection check result : 10
+2023-10-18 14:08:15,244 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-10-18 14:08:15,244 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2023-10-18 14:08:15,269 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-10-18 14:08:15,269 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-10-18 14:08:15,269 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-10-18 14:08:15,272 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-10-18 14:08:15,278 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2023-10-18 14:08:15,283 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-10-18 14:08:15,287 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2023-10-18 14:08:15,290 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-10-18 14:08:15,293 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 856480672 Bytes (1073741824)
+2023-10-18 14:08:15,294 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-10-18 14:08:15,294 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2023-10-18 14:08:15,294 [INFO] OpenFileManager:308 - Change cursor
+2023-10-18 14:08:15,305 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-10-18 14:08:15,312 [INFO] Mcu:1946 - Initializing MCU STM32H745ZITx STM32H745ZITx STM32H745ZIT6
+2023-10-18 14:08:17,590 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-10-18 14:08:17,590 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-10-18 14:08:18,611 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2023-10-18 14:08:18,611 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.ContextNb) in loaded IOC file
+2023-10-18 14:08:18,611 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-10-18 14:08:18,611 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-10-18 14:08:18,611 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2023-10-18 14:08:18,611 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2023-10-18 14:08:18,740 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS_M7
+2023-10-18 14:08:18,741 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS_M7
+2023-10-18 14:08:18,741 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS_M7
+2023-10-18 14:08:18,741 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS_M7
+2023-10-18 14:08:18,741 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,747 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,748 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,748 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,748 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,748 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,748 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,748 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,748 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,748 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,748 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,908 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS_M4
+2023-10-18 14:08:18,908 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS_M4
+2023-10-18 14:08:18,908 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS_M4
+2023-10-18 14:08:18,908 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS_M4
+2023-10-18 14:08:18,908 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:18,917 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-10-18 14:08:19,057 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-10-18 14:08:19,846 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-10-18 14:08:19,855 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-10-18 14:08:20,533 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-10-18 14:08:20,660 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 883288688 Bytes (1073741824)
+2023-10-18 14:08:20,692 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-10-18 14:08:20,692 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-10-18 14:08:20,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-10-18 14:08:20,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2023-10-18 14:08:20,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-10-18 14:08:20,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-10-18 14:08:20,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.3
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.4
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.1
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.1
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.1
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2023-10-18 14:08:20,693 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.1
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-10-18 14:08:20,694 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-10-18 14:08:21,079 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-10-18 14:08:21,080 [INFO] PinOutPanel:1499 - setPackage(STM32H745ZITx,LQFP144)
+2023-10-18 14:08:21,557 [INFO] UtilMem:75 - Before build in PCC Used Memory: 960485896 Bytes (1073741824)
+2023-10-18 14:08:21,857 [INFO] UtilMem:75 - After build in PCC Used Memory: 868234104 Bytes (1073741824)
+2023-10-18 14:08:21,878 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,878 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,878 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,878 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,878 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,878 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,878 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,878 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,878 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,879 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,880 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,880 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,880 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,880 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,880 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,880 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,880 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,880 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,881 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,881 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,881 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,881 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,881 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,881 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,881 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,882 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,882 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,882 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,883 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,883 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,883 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,884 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,884 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,884 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,884 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,885 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,885 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,885 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,885 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,886 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,886 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,886 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,886 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,887 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,887 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,887 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,887 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,888 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,888 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,888 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,889 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,889 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,889 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,894 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,894 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,895 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,895 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,895 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,896 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,896 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,896 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,898 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,899 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,900 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,900 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,901 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,901 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,902 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,902 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,903 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,903 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,904 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,904 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,905 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,905 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,906 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,907 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,907 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,908 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,909 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,909 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,910 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,911 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,911 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,912 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-10-18 14:08:21,915 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-10-18 14:08:21,917 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-10-18 14:08:21,942 [INFO] CADModel:165 - CPN selected for project levelSTM32H745ZIT6
+2023-10-18 14:08:21,942 [INFO] CADModel:114 - Register for checkConnection events
+2023-10-18 14:08:21,994 [INFO] OpenFileManager:328 - Restore cursor
+2023-10-18 14:08:22,372 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 888532432 Bytes (1073741824)
+2023-10-18 14:08:22,482 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 915253192 Bytes (1073741824)
+2023-10-18 14:08:22,717 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-18 14:08:22,717 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: CORTEX_M7
+2023-10-18 14:08:22,717 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC2
+2023-10-18 14:08:22,718 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC1
+2023-10-18 14:08:22,718 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-18 14:08:22,817 [INFO] CodeGenerator:1502 - *******************Project context M7 selected
+2023-10-18 14:08:22,910 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\MXTmpFiles\license.tmp_save
+2023-10-18 14:08:23,118 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\MXTmpFiles\license.tmp
+2023-10-18 14:08:23,158 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC1 ip!!
+2023-10-18 14:08:23,201 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\MXTmpFiles\cortex.tmp_save
+2023-10-18 14:08:23,321 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\MXTmpFiles\cortex.tmp
+2023-10-18 14:08:23,333 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\stm32h7xx_it.c_save
+2023-10-18 14:08:23,553 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\stm32h7xx_it.c
+2023-10-18 14:08:23,556 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 14:08:23,612 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\stm32h7xx_it.h
+2023-10-18 14:08:23,642 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 14:08:23,767 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 14:08:23,770 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\MXTmpFiles\system.tmp_save
+2023-10-18 14:08:23,820 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\MXTmpFiles\system.tmp
+2023-10-18 14:08:23,826 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 14:08:23,967 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 14:08:24,019 [WARN] IPConfigManager:3431 - IP not found : NVIC
+2023-10-18 14:08:24,020 [WARN] CodeGenerator:3760 - IP not found : null
+2023-10-18 14:08:24,024 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\main.h_save
+2023-10-18 14:08:24,142 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\main.h
+2023-10-18 14:08:24,145 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\main.c_save
+2023-10-18 14:08:24,276 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\main.c
+2023-10-18 14:08:24,371 [INFO] CodeGenerator:1502 - *******************Project context M4 selected
+2023-10-18 14:08:24,524 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\MXTmpFiles\license.tmp_save
+2023-10-18 14:08:24,630 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\MXTmpFiles\license.tmp
+2023-10-18 14:08:24,637 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC2 ip!!
+2023-10-18 14:08:24,642 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\MXTmpFiles\cortex.tmp_save
+2023-10-18 14:08:24,755 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\MXTmpFiles\cortex.tmp
+2023-10-18 14:08:24,766 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\stm32h7xx_it.c_save
+2023-10-18 14:08:24,870 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\stm32h7xx_it.c
+2023-10-18 14:08:24,872 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 14:08:24,942 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\stm32h7xx_it.h
+2023-10-18 14:08:24,953 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 14:08:25,060 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 14:08:25,063 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\MXTmpFiles\system.tmp_save
+2023-10-18 14:08:25,111 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\MXTmpFiles\system.tmp
+2023-10-18 14:08:25,116 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 14:08:25,254 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 14:08:25,285 [WARN] IPConfigManager:3431 - IP not found : NVIC
+2023-10-18 14:08:25,286 [WARN] CodeGenerator:3760 - IP not found : null
+2023-10-18 14:08:25,289 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\main.h_save
+2023-10-18 14:08:25,411 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\main.h
+2023-10-18 14:08:25,414 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\main.c_save
+2023-10-18 14:08:25,570 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\main.c
+2023-10-18 14:08:26,257 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 135mS.
+2023-10-18 14:08:26,263 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-18 14:08:27,090 [INFO] ConfigFileManager:1457 - The Die is : DIE450
+2023-10-18 14:08:34,759 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 8496mS.
+2023-10-18 14:08:34,760 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 14:08:34,761 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 14:08:35,656 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-10-18 14:08:35,659 [INFO] ApiDb:448 - Save user favorites file C:\Users\Bhargav-4836/.stm32cubeide/favorites.mcus.txt: 2 item(s)
+2023-10-18 14:08:35,659 [INFO] ApiDb:452 - User favorites MCUs=[STM32F103C8T6, STM32H745ZIT6]
+2023-10-18 14:11:14,309 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-18 14:11:55,565 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:11:58,453 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:12:10,135 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:12:15,409 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:12:19,844 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:12:36,565 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:13:06,517 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:13:25,184 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:13:29,560 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:15:39,976 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class sun.awt.windows.WEmbeddedFrame cannot be cast to class javax.swing.JFrame (sun.awt.windows.WEmbeddedFrame and javax.swing.JFrame are in module java.desktop of loader 'bootstrap')
+2023-10-18 14:15:39,979 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.clock.ClockConfigurationView.activatePlugin(ClockConfigurationView.java:425)
+2023-10-18 14:15:39,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.maingui.MainPanel$1.stateChanged(MainPanel.java:367)
+2023-10-18 14:15:39,983 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(JTabbedPane.java:444)
+2023-10-18 14:15:39,984 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(JTabbedPane.java:295)
+2023-10-18 14:15:39,985 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(DefaultSingleSelectionModel.java:148)
+2023-10-18 14:15:39,987 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(DefaultSingleSelectionModel.java:79)
+2023-10-18 14:15:39,990 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(JTabbedPane.java:648)
+2023-10-18 14:15:39,991 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(JTabbedPane.java:623)
+2023-10-18 14:15:39,994 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(BasicTabbedPaneUI.java:4101)
+2023-10-18 14:15:39,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+2023-10-18 14:15:39,998 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2023-10-18 14:15:39,998 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2023-10-18 14:15:39,999 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2023-10-18 14:15:40,001 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2023-10-18 14:15:40,003 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2023-10-18 14:15:40,004 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2023-10-18 14:15:40,006 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2023-10-18 14:15:40,007 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2023-10-18 14:15:40,008 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2023-10-18 14:15:40,009 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2023-10-18 14:15:40,010 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2023-10-18 14:15:40,011 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+2023-10-18 14:15:40,011 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+2023-10-18 14:15:40,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+2023-10-18 14:15:40,013 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2023-10-18 14:15:40,015 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2023-10-18 14:15:40,016 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2023-10-18 14:15:40,017 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+2023-10-18 14:15:40,018 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+2023-10-18 14:15:40,019 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2023-10-18 14:15:40,020 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2023-10-18 14:15:40,021 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+2023-10-18 14:15:40,023 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-10-18 14:15:40,024 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-10-18 14:15:40,025 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-10-18 14:15:40,026 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-10-18 14:15:40,026 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-10-18 14:15:40,027 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-10-18 14:15:42,225 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:15:53,819 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:16:47,773 [INFO] Gpio:273 - dependency for GPIO [RCC, USART3]
+2023-10-18 14:17:18,037 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 832192728 Bytes (1073741824)
+2023-10-18 14:17:20,157 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 871512280 Bytes (1073741824)
+2023-10-18 14:17:22,014 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 823179720 Bytes (1073741824)
+2023-10-18 14:17:22,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-18 14:17:22,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-18 14:17:22,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-18 14:17:22,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: CORTEX_M7
+2023-10-18 14:17:22,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC2
+2023-10-18 14:17:22,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-18 14:17:22,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS_M4
+2023-10-18 14:17:22,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC1
+2023-10-18 14:17:22,258 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-18 14:17:22,375 [INFO] CodeGenerator:1502 - *******************Project context M7 selected
+2023-10-18 14:17:22,510 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\MXTmpFiles\license.tmp_save
+2023-10-18 14:17:22,649 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\MXTmpFiles\license.tmp
+2023-10-18 14:17:22,701 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\gpio.c_save
+2023-10-18 14:17:22,820 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\gpio.c
+2023-10-18 14:17:22,824 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\gpio.h_save
+2023-10-18 14:17:22,886 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\gpio.h
+2023-10-18 14:17:22,903 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC1 ip!!
+2023-10-18 14:17:22,988 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\MXTmpFiles\cortex.tmp_save
+2023-10-18 14:17:23,107 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\MXTmpFiles\cortex.tmp
+2023-10-18 14:17:23,114 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\usart.c_save
+2023-10-18 14:17:23,230 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\usart.c
+2023-10-18 14:17:23,235 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\usart.h_save
+2023-10-18 14:17:23,316 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\usart.h
+2023-10-18 14:17:23,346 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\stm32h7xx_it.c_save
+2023-10-18 14:17:23,510 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\stm32h7xx_it.c
+2023-10-18 14:17:23,513 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 14:17:23,557 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\stm32h7xx_it.h
+2023-10-18 14:17:23,608 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 14:17:23,706 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 14:17:23,708 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\MXTmpFiles\system.tmp_save
+2023-10-18 14:17:23,749 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\MXTmpFiles\system.tmp
+2023-10-18 14:17:23,769 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 14:17:23,883 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 14:17:23,960 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\main.h_save
+2023-10-18 14:17:24,093 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Inc\main.h
+2023-10-18 14:17:24,111 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\main.c_save
+2023-10-18 14:17:24,216 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM7\Core\Src\main.c
+2023-10-18 14:17:24,301 [INFO] CodeGenerator:1502 - *******************Project context M4 selected
+2023-10-18 14:17:24,420 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\MXTmpFiles\license.tmp_save
+2023-10-18 14:17:24,587 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\MXTmpFiles\license.tmp
+2023-10-18 14:17:24,597 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\gpio.c_save
+2023-10-18 14:17:24,716 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\gpio.c
+2023-10-18 14:17:24,719 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\gpio.h_save
+2023-10-18 14:17:24,764 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\gpio.h
+2023-10-18 14:17:24,771 [WARN] IPConfigManager:99 - WARNING: Missing Config File for NVIC2 ip!!
+2023-10-18 14:17:24,787 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\MXTmpFiles\cortex.tmp_save
+2023-10-18 14:17:24,930 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\MXTmpFiles\cortex.tmp
+2023-10-18 14:17:24,954 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\stm32h7xx_it.c_save
+2023-10-18 14:17:25,037 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\stm32h7xx_it.c
+2023-10-18 14:17:25,040 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\stm32h7xx_it.h_save
+2023-10-18 14:17:25,083 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\stm32h7xx_it.h
+2023-10-18 14:17:25,151 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\stm32h7xx_hal_msp.c_save
+2023-10-18 14:17:25,224 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\stm32h7xx_hal_msp.c
+2023-10-18 14:17:25,226 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\MXTmpFiles\system.tmp_save
+2023-10-18 14:17:25,263 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\MXTmpFiles\system.tmp
+2023-10-18 14:17:25,286 [INFO] CodeEngine:311 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\stm32h7xx_hal_conf.h_save
+2023-10-18 14:17:25,413 [INFO] CodeEngine:335 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\stm32h7xx_hal_conf.h
+2023-10-18 14:17:25,462 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\main.h_save
+2023-10-18 14:17:25,589 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Inc\main.h
+2023-10-18 14:17:25,608 [INFO] CodeEngine:255 - oldGeneratedFile, D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\main.c_save
+2023-10-18 14:17:25,725 [INFO] CodeEngine:279 - Generated code: D:\h7_bm_cube\CabinControllCode\CM4\Core\Src\main.c
+2023-10-18 14:17:26,896 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 124mS.
+2023-10-18 14:17:26,900 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-18 14:17:27,135 [INFO] ConfigFileManager:1457 - The Die is : DIE450
+2023-10-18 14:17:33,751 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 6850mS.
+2023-10-18 14:17:33,751 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 14:17:33,752 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-18 21:41:52,282 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-10-18 21:41:52,284 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-10-18 21:41:52,284 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com

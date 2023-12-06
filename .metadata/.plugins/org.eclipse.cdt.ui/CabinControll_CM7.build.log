@@ -1,0 +1,75 @@
+18:36:13 **** Incremental Build of configuration Debug for project CabinControll_CM7 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/VoltageControl.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/VoltageControl.d" -MT"Core/Src/VoltageControl.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/VoltageControl.o"
+arm-none-eabi-gcc "../Core/Src/cabinControl.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/cabinControl.d" -MT"Core/Src/cabinControl.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/cabinControl.o"
+arm-none-eabi-gcc "../Core/Src/cabinUpdate.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/cabinUpdate.d" -MT"Core/Src/cabinUpdate.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/cabinUpdate.o"
+arm-none-eabi-gcc "../Core/Src/callReg.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/callReg.d" -MT"Core/Src/callReg.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/callReg.o"
+In file included from ../Core/Src/cabinUpdate.c:14:
+../Core/Inc/cabinUpdate.h:18:10: fatal error: WiFi.h: No such file or directory
+   18 | #include <WiFi.h>
+      |          ^~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:76: Core/Src/cabinUpdate.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/VoltageControl.c:18:10: fatal error: iomanip: No such file or directory
+   18 | #include <iomanip>
+      |          ^~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:76: Core/Src/VoltageControl.o] Error 1
+In file included from ../Core/Inc/cabinControl.h:18,
+                 from ../Core/Src/cabinControl.c:15:
+../Core/Inc/common.h:17: warning: "SET_BIT" redefined
+   17 | #define    SET_BIT(reg, n)     (reg |= (1 << n))
+      | 
+In file included from ../Core/Inc/cabinControl.h:18,
+                 from ../Core/Src/callReg.c:15:
+../Core/Inc/common.h:17: warning: "SET_BIT" redefined
+   17 | #define    SET_BIT(reg, n)     (reg |= (1 << n))
+      | 
+In file included from ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h:29,
+                 from ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32h7xx_hal_conf.h:247,
+                 from ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Inc/cabinControl.h:17,
+                 from ../Core/Src/cabinControl.c:15:
+../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:206: note: this is the location of the previous definition
+  206 | #define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+      | 
+In file included from ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h:29,
+                 from ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32h7xx_hal_conf.h:247,
+                 from ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Inc/cabinControl.h:17,
+                 from ../Core/Src/callReg.c:15:
+../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:206: note: this is the location of the previous definition
+  206 | #define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+      | 
+In file included from ../Core/Inc/espCom.h:17,
+                 from ../Core/Src/callReg.c:17:
+../Core/Inc/configuration.h:13:10: fatal error: SPIFFS.h: No such file or directory
+   13 | #include "SPIFFS.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:76: Core/Src/callReg.o] Error 1
+../Core/Src/cabinControl.c: In function 'initData':
+../Core/Src/cabinControl.c:426:24: error: invalid use of void expression
+  426 |   cabinCurrentFloorNum(cabinCurFloor()); // current floor number
+      |                        ^~~~~~~~~~~~~~~
+../Core/Src/cabinControl.c: In function 'doorAlarmOutput':
+../Core/Src/cabinControl.c:503:11: error: void value not ignored as it ought to be
+  503 |       if (cabinCurFloor() != desiredFloor)
+      |           ^~~~~~~~~~~~~~~
+../Core/Src/cabinControl.c:506:22: error: void value not ignored as it ought to be
+  506 |         desiredFloor = cabinCurFloor();
+      |                      ^
+../Core/Src/cabinControl.c: In function 'callStatus':
+../Core/Src/cabinControl.c:574:17: error: invalid use of void expression
+  574 |     callCleared(cabinCurFloor());
+      |                 ^~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:76: Core/Src/cabinControl.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+18:36:13 Build Failed. 12 errors, 2 warnings. (took 830ms)
+

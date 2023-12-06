@@ -1,0 +1,23 @@
+11:56:13 **** Incremental Build of configuration Debug for project templet_h7ziq_CM4 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc -I../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "templet_h7ziq_CM4.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\h7_bm_cube\templet_h7ziq\CM4\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="templet_h7ziq_CM4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: templet_h7ziq_CM4.elf
+ 
+arm-none-eabi-size   templet_h7ziq_CM4.elf 
+arm-none-eabi-objdump -h -S  templet_h7ziq_CM4.elf  > "templet_h7ziq_CM4.list"
+arm-none-eabi-objcopy  -O ihex  templet_h7ziq_CM4.elf  "templet_h7ziq_CM4.hex"
+   text	   data	    bss	    dec	    hex	filename
+   3128	     24	   1568	   4720	   1270	templet_h7ziq_CM4.elf
+arm-none-eabi-objcopy  -O binary  templet_h7ziq_CM4.elf  "templet_h7ziq_CM4.bin"
+Finished building: default.size.stdout
+ 
+Finished building: templet_h7ziq_CM4.hex
+Finished building: templet_h7ziq_CM4.bin
+Finished building: templet_h7ziq_CM4.list
+ 
+ 
+ 
+
+11:56:14 Build Finished. 0 errors, 0 warnings. (took 864ms)
+
