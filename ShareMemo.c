@@ -1,5 +1,6 @@
 
-
+#include "ringbuff.h"
+#include "common.h"
 
 
 typedef struct
@@ -157,10 +158,10 @@ typedef struct
 
 
 
-
+/*
 #include "ringbuff.h"
 #include "common.h"
-
+*/
 volatile ringbuff_t* rb_cm4_to_cm7 = (void *)BUFF_CM4_TO_CM7_ADDR;
 volatile ringbuff_t* rb_cm7_to_cm4 = (void *)BUFF_CM7_TO_CM4_ADDR;
 
