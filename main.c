@@ -64,10 +64,10 @@ int main (void)
 	  RCC_AHB4ENR |= GPIOBEN;
 	  RCC_AHB4ENR |= GPIOEEN;
 
-
-//	  GPIOA_MODER |= (1U<<10);
-//	  GPIOA_MODER &= ~(1U<<11);  //GPIOA pin 5 setting into output mode
-
+/*
+	  GPIOA_MODER |= (1U<<10);
+	  GPIOA_MODER &= ~(1U<<11);  //GPIOA pin 5 setting into output mode
+*/
 	  GPIOB_MODER |= (1U<<0);
 	  GPIOB_MODER &= ~(1U<<1);    //GPIOB pin 0 setting into output mode
 
@@ -82,10 +82,10 @@ int main (void)
 	  while(1)
 	  {
 		  /*3. Set the pins to high*/
-//		  GPIOA_ODR |= LED_PIN;       //PA5
-//		  GPIOB_ODR |= LED_GREEN;	  //PB0
-//		  GPIOB_ODR |= LED_RED;		  //PB14
-//		  GPIOE_ODR |= LED_YELLOW;	  //PE1
+		  GPIOA_ODR |= LED_PIN;       //PA5
+		  GPIOB_ODR |= LED_GREEN;	  //PB0
+		  GPIOB_ODR |= LED_RED;		  //PB14
+		  GPIOE_ODR |= LED_YELLOW;	  //PE1
 
 		  /*Toggle pin*/
 
@@ -101,8 +101,5 @@ int main (void)
 
 void delay_time()
 {
-	for(int i = 0; i<10000000; i++)
-	{
-
-	}
+	for(int i = 0; i<10000000; i++);
 }
